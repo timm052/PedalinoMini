@@ -549,8 +549,8 @@ bool auto_reconnect(String ssid, String password)
   // Return 'true' if connected to the (last used) access point within WIFI_CONNECT_TIMEOUT seconds
 
   if (ssid.length() == 0) {
-    ssid = wifiSSID;
-    password = wifiPassword;
+    ssid = "TelstraA71DD7";
+    password = "phea7bxjmm";
   }
 
   return (ssid.length() == 0) ? false : ap_connect(ssid, password);
